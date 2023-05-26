@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tests/cmake_add_subdirectory",
+		"source" : "tests/cmake_add_subdirectory"
+	}
+}

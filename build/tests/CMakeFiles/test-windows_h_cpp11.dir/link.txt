@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/test-windows_h_cpp11.dir/src/unit-windows_h.cpp.o" CMakeFiles/test_main.dir/src/unit.cpp.o -o test-windows_h_cpp11 

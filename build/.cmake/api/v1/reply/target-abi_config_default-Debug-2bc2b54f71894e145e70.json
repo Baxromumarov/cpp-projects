@@ -1,0 +1,154 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tests/abi/config/abi_config_default"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"tests/abi/config/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-deprecated"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-float-equal"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "DOCTEST_CONFIG_SUPER_FAST_ASSERTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "JSON_TEST_KEEP_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/macbookpro/learn-c++/json/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/macbookpro/learn-c++/json/tests/abi/../thirdparty/doctest"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/macbookpro/learn-c++/json/tests/abi/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "abi_compat_main::@e72ef6c1bf9f9b5f6889"
+		}
+	],
+	"id" : "abi_config_default::@fbe3f0acb33dfc79afce",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libabi_compat_main.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "abi_config_default",
+	"nameOnDisk" : "abi_config_default",
+	"paths" : 
+	{
+		"build" : "tests/abi/config",
+		"source" : "tests/abi/config"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/abi/config/default.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
